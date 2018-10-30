@@ -139,8 +139,8 @@ namespace DemoApp.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
-//             return View("Error");
-            return View();
+            return View("Error");
+//             return View();
         }
 
         //
